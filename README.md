@@ -2,6 +2,11 @@
 
 ## Commands
 
+### Configure Application Properties
+```bash
+cp src/main/resources/application.properties.example src/main/resources/application.properties
+```
+
 ### Build the Project
 ```bash
 mvn clean install
@@ -58,7 +63,6 @@ rideshare/
 │   └── test/
 ├── pom.xml                                            # Maven dependencies
 ├── .gitignore                                         # Git ignore rules
-├── KEYS.md                                            # Configuration keys guide
 └── README.md                                          # This file
 ```
 
