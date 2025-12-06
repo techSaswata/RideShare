@@ -1,0 +1,12 @@
+spring.application.name=rideshare
+
+server.port=8081
+
+spring.data.mongodb.uri=
+spring.data.mongodb.database=rideshare
+
+jwt.secret=
+jwt.expiration=
+
+logging.level.org.springframework.security=DEBUG
+logging.level.org.example.rideshare=DEBUG
